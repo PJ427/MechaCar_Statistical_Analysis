@@ -10,11 +10,14 @@ Summary:  Due to the MechaCar suffering from production troubles that are blocki
      
    ![](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/linear_regression_output.PNG)
    
-      o Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?  
-   
+      o Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+        - The vehicle length and the ground clearance provide a non-randomamout of variance to the mpg. Their p-values are below the signifcance level of 0.05%.
+
       o Is the slope of the linear model considered to be zero? Why or why not?
+        - The p-value of our linear regression analysis is 5.35e11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is         sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
    
       o Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+        - From our linear regression model, the r-squared value is 0.7149 which means that roughly 71% of all predictions will be correct when using this linear model.
 
 ## Summary Statistics on Suspension Coils
 
@@ -30,7 +33,7 @@ Summary:  Due to the MechaCar suffering from production troubles that are blocki
    
 ## T-Tests on Suspension Coils
 
-   Summary - 
+   Summary - As a whole the p-value is 0.06028 which is above the significant level of 0.05% so it is not statiscally different.  When grouped by lots, lots 1 and 2 are above the significance level showing they are statiscally different.  Lot 3 was below the signicance level and is the only lot that is different.
    
    ![](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/t_tests.PNG)
 
@@ -39,7 +42,7 @@ Summary:  Due to the MechaCar suffering from production troubles that are blocki
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
       o What metric or metrics are you going to test?
-      
+      - 
       o What is the null hypothesis or alternative hypothesis?
       
       o What statistical test would you use to test the hypothesis? And why?
