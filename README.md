@@ -1,22 +1,26 @@
 # MechaCar_Statistical_Analysis
 
-## Linear Regression to Predict MPG
+Summary:  Provide a review of the production data for insights to assist the manufacturing team.  Complete this by:  
 
-   Summary
-   
+      o Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+      o Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+      o Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+
+## Linear Regression to Predict MPG
+     
    ![](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/linear_regression_output.PNG)
    
-      o Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+      o Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?  
    
       o Is the slope of the linear model considered to be zero? Why or why not?
    
-      o  Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+      o Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Summary Statistics on Suspension Coils
 
    Summary - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
    
-   The Total_Summary ![toatl_summary](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.PNG) and the Lot_Summary ![lot_summary](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.PNG)
+   Total_Summary ![toatl_summary](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.PNG) and Lot_Summary ![lot_summary](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.PNG)
    
 ## T-Tests on Suspension Coils
 
