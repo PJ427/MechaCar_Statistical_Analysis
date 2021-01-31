@@ -22,7 +22,7 @@
 
    Summary - 
    
-   1[](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/t_tests.PNG)
+   ![](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/t_tests.PNG)
 
 ## Study Design: MechaCar vs Competition
 
