@@ -18,9 +18,11 @@
    
    The Total_Summary ![toatl_summary](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.PNG) and the Lot_Summary ![lot_summary](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.PNG)
    
-## Summary of t-test
+## T-Tests on Suspension Coils
 
    Summary - 
+   
+   1[](https://github.com/PJ427/MechaCar_Statistical_Analysis/blob/main/Resources/t_tests.PNG)
 
 ## Study Design: MechaCar vs Competition
 
