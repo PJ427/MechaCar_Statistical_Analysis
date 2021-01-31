@@ -1,8 +1,8 @@
 # MechaCar_Statistical_Analysis
 
-Summary:  Provide a review of the production data for insights to assist the manufacturing team.  Complete this by:  
+Summary:  Due to the MechaCar suffering from production troubles that are blocking the progress of the manufacturing team, we are tasked to provide a review of the production data for insights to assist the manufacturing team.  We need to complete this by:  
 
-      o Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+      o Performing multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
       o Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
       o Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 
