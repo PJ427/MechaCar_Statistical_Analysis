@@ -28,12 +28,6 @@ View(lot_summary)
 t.test(Suspension_Coil$PSI, mu=1500)
 
 # Perform subset Manufacturing Lot t-tests
-Lot1 <- subset(Suspension_Coil, Manufacturing_Lot=='Lot1')
-t.test(Lot1$PSI, mu=1500)
-
-Lot2 <- subset(Suspension_Coil, Manufacturing_Lot=='Lot2')
-t.test(Lot2$PSI, mu=1500)
-
-Lot3 <- subset(Suspension_Coil, Manufacturing_Lot=='Lot3')
-t.test(Lot3$PSI, mu=1500)
-       
+t.test(subset(Suspension_Coil, Manufacturing_Lot == "Lot1")$PSI, mu=1500)
+t.test(subset(Suspension_Coil, Manufacturing_Lot == "Lot2")$PSI, mu=1500)       
+t.test(subset(Suspension_Coil, Manufacturing_Lot == "Lot3")$PSI, mu=1500)
