@@ -42,9 +42,14 @@ Summary:  Due to the MechaCar suffering from production troubles that are blocki
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
       o What metric or metrics are you going to test?
-      - 
+      - One of the best metrics to test would be the fuel efficiency.  With fluctuating fuel costs, many consumers are always looking to stretch the dollar.  Vehicles with         great fuel efficiency would help increase sales.
+      
       o What is the null hypothesis or alternative hypothesis?
+      - H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+      - Ha : At least one of the means is different from all other groups.
       
       o What statistical test would you use to test the hypothesis? And why?
-      
+      - The best way to complete this study would be to use the one-way ANOVA.  Using this we could test the means of a single dependent variable across a single independent       variable with multiple groups. 
+
       o What data is needed to run the statistical test?
+      - We would be able to determine our fuel efficiency by using the mpf of different cars based on vehicle class.
